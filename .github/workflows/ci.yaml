@@ -22,3 +22,5 @@ jobs:
 
       - name: Run tests
         run: npm test
+      - name: Build Docker Image
+        run: docker build -t ci-cd-app .
